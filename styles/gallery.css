@@ -110,3 +110,25 @@ section.gallery {
         transform: translateY(100%);
     }
 }
+
+@media (max-width: 768px) {
+    section.gallery {
+        padding: 1.5rem;
+
+        & .content {
+            grid-template-areas:
+                "A A A"
+                "B B B"
+                "C C C"
+                "D D D";
+        }
+
+        & header span {
+            font-size: 12px;
+        }
+
+        & header h2 {
+            font-size: 24px;
+        }
+    }
+}
