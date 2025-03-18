@@ -114,6 +114,11 @@ footer {
 
             & a {
                 justify-content: flex-start;
+
+                &::before {
+                    left: unset;
+                    right: 20%;
+                }
             }
         }
 
